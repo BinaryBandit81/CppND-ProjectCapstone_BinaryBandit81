@@ -6,6 +6,12 @@
 *.lo
 *.o
 *.obj
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
 
 # Precompiled Headers
 *.gch
@@ -30,3 +36,4 @@
 *.exe
 *.out
 *.app
+build/CapStone
