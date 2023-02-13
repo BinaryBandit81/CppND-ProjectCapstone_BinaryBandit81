@@ -43,17 +43,20 @@ void Station::getCurrentColor(int &red, int &blue, int &green) {
     red = 0;
     blue = 0;
     green = 0;
+    bool stationActive = false;
     _mtx.lock();
     for (auto const&  dep : _departures) {
         if (dep->isInStation() && dep->isActive()) {
-            /*if (dep->getLine() != nullptr) {
-                dep->getLine()->getColor(red, blue, green);
-            }*/
             _line->getColor(red, blue, green);
-            //std::cout << "Vehicle is in Station" << std::endl;
+            stationActive = true;
         }
     }
     _mtx.unlock();
+    // if (stationActive) {
+    //     std::cout << this->getName() << ": Station active; Colors:" << red << green << blue <<  std::endl;
+    // } else {
+    //     std::cout << this->getName() << ": Station NOT active; Colors:" << red << green << blue << std::endl;
+    // }
 }
 
 void Station::addDeparture(std::string depID, std::shared_ptr<Line> line, std::chrono::system_clock::time_point departureTime) {
@@ -66,7 +69,9 @@ void Station::addDeparture(std::string depID, std::shared_ptr<Line> line, std::c
         }
     }
     if (departureIsNew) {
-        _departures.push_back(std::make_unique<Departure>(this->getName(), depID, line, departureTime));
+        if (Departure::validDepartureTime(departureTime)){
+            _departures.push_back(std::make_unique<Departure>(this->getName(), depID, line, departureTime));
+        }
     }
     _mtx.unlock();
 }
@@ -102,28 +107,28 @@ void Station::updateDepartures()
         request.setOpt(new curlpp::options::Url(url));
         request.setOpt(new curlpp::options::WriteStream(&response));
         request.perform();
-        //std::cout << "ID: " << _id << " request: " << request << std::endl;
 
         std::string rawJson = std::string(response.str());
         const auto rawJsonLength = static_cast<int>(rawJson.length());
         
         if (!reader->parse(rawJson.c_str(), rawJson.c_str() + rawJsonLength, &root, &errs)) {
-        //if (!parseFromStream(builder, rawJson, &root, &errs)) {
-            std::cout << errs << std::endl;
-            return;
-        }
-        //std::cout << "id: "<< _id << " departures: " << root["departures"][0]["label"] << std::endl;
-        for (auto respDep : root["departures"]) {
-            if (respDep["product"] == "UBAHN") {
-                if (respDep["label"] == _line->getName()) {
-                    //std::cout << "id: " << _id << " Label: " << respDep["label"]  << " time: " << respDep["departureTime"] << std::endl;
-                    //std::cout << "lineResp: " << respDep["label"].asString() << " lineMem: " << getLineByName(respDep["label"].asString()) << std::endl;
-                    std::chrono::system_clock::time_point departureTime(std::chrono::milliseconds(std::stoll(respDep["departureTime"].asString())));
-                    addDeparture(respDep["departureId"].asString(), getLineByName(respDep["label"].asString()), departureTime);
-                }
-            }
-        }
+            //std::cout << "Json Error: " << errs << std::endl;
+        } else {
+            //std::cout << "id: "<< _id << " departures: " << root["departures"][0]["label"] << std::endl;
+            int depCount = 0;
+            for (auto respDep : root["departures"]) {
+                if (respDep["product"] == "UBAHN") {
+                    if (respDep["label"] == _line->getName()) {
+                        std::chrono::system_clock::time_point departureTime(std::chrono::milliseconds(std::stoll(respDep["departureTime"].asString())));
+                        //std::cout << "id: "<< _id << " departures: " << respDep["label"] << " depTime: " << std::chrono::milliseconds(std::stoll(respDep["departureTime"].asString())).count() << std::endl;
+                        addDeparture(respDep["departureId"].asString(), getLineByName(respDep["label"].asString()), departureTime);
 
+                        depCount++;
+                    }
+                }                
+            }
+            //std::cout << "Depature Count: " << depCount << std::endl;
+        }
         // update all Departures
         for (auto const&  dep : _departures) {
             dep->update();
@@ -150,6 +155,6 @@ void Station::updateDepartures()
 
         // sleep at every iteration to reduce CPU usage
         std::this_thread::sleep_for(std::chrono::milliseconds(5000));
-        std::cout << "Continue Thread " + threadID.str() + " for Station: " + _name +"\n";
+        //std::cout << "Continue Thread " + threadID.str() + " for Station: " + _name +"\n";
     }
 }
