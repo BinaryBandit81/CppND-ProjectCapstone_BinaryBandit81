@@ -19,6 +19,8 @@ public:
     std::string getDepartureID() {return _departureID;}
     bool isActive() {return _active;}
 
+    static bool validDepartureTime(std::chrono::time_point<std::chrono::system_clock> departureTime);
+
 private:
     std::string _station;
     std::shared_ptr<Line> _line;
@@ -26,8 +28,8 @@ private:
     bool _active;
     std::chrono::time_point<std::chrono::system_clock> _departureTime;
     std::string _departureID;
-    int prevTime = 2;
-    int afterTime = -4;
+    static int prevTime;
+    static int afterTime;
 };
 
 #endif
