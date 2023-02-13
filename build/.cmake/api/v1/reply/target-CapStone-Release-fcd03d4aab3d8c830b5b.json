@@ -69,7 +69,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : " -std=c++17 -pthread -g"
+					"fragment" : " -std=c++17 -pthread -O3 -DNDEBUG"
 				}
 			],
 			"defines" : 
@@ -103,7 +103,7 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-std=c++17 -pthread -g",
+				"fragment" : "-std=c++17 -pthread -O3 -DNDEBUG",
 				"role" : "flags"
 			},
 			{
@@ -112,115 +112,115 @@
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/libopencv_calib3d4d.a",
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/libopencv_calib3d4.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/libopencv_core4d.a",
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/libopencv_core4.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/libopencv_dnn4d.a",
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/libopencv_dnn4.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/libopencv_features2d4d.a",
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/libopencv_features2d4.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/libopencv_flann4d.a",
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/libopencv_flann4.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/libopencv_highgui4d.a",
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/libopencv_highgui4.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/libopencv_imgcodecs4d.a",
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/libopencv_imgcodecs4.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/libopencv_imgproc4d.a",
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/libopencv_imgproc4.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/libopencv_ml4d.a",
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/libopencv_ml4.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/libopencv_objdetect4d.a",
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/libopencv_objdetect4.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/libopencv_photo4d.a",
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/libopencv_photo4.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/libopencv_stitching4d.a",
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/libopencv_stitching4.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/libopencv_video4d.a",
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/libopencv_video4.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/libopencv_videoio4d.a",
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/libopencv_videoio4.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/libcurlpp.a",
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/libcurlpp.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 5,
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/libjsoncpp.a",
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/libjsoncpp.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/libopencv_imgcodecs4d.a",
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/libopencv_imgcodecs4.a",
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/libwebpdecoder.a",
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/libwebpdecoder.a",
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/libwebp.a",
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/libwebp.a",
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/libwebpdemux.a",
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/libwebpdemux.a",
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/libwebpmux.a",
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/libwebpmux.a",
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/libgtk-3.a",
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/libgtk-3.a",
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/libgdk-3.a",
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/libgdk-3.a",
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/libpangocairo-1.0.a",
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/libpangocairo-1.0.a",
 				"role" : "libraries"
 			},
 			{
@@ -240,7 +240,7 @@
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/libcairo-gobject.a",
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/libcairo-gobject.a",
 				"role" : "libraries"
 			},
 			{
@@ -248,15 +248,15 @@
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/libgdk_pixbuf-2.0.a",
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/libgdk_pixbuf-2.0.a",
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/libatk-bridge-2.0.a",
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/libatk-bridge-2.0.a",
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/libatspi.a",
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/libatspi.a",
 				"role" : "libraries"
 			},
 			{
@@ -272,11 +272,11 @@
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/libatk-1.0.a",
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/libatk-1.0.a",
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/libepoxy.a",
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/libepoxy.a",
 				"role" : "libraries"
 			},
 			{
@@ -288,23 +288,23 @@
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/libpangoft2-1.0.a",
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/libpangoft2-1.0.a",
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/libpango-1.0.a",
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/libpango-1.0.a",
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/libfribidi.a",
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/libfribidi.a",
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/libharfbuzz.a",
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/libharfbuzz.a",
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/libcairo.a",
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/libcairo.a",
 				"role" : "libraries"
 			},
 			{
@@ -312,15 +312,15 @@
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/libgdk_pixbuf-2.0.a",
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/libgdk_pixbuf-2.0.a",
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/libatk-bridge-2.0.a",
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/libatk-bridge-2.0.a",
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/libatspi.a",
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/libatspi.a",
 				"role" : "libraries"
 			},
 			{
@@ -336,11 +336,11 @@
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/libatk-1.0.a",
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/libatk-1.0.a",
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/libepoxy.a",
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/libepoxy.a",
 				"role" : "libraries"
 			},
 			{
@@ -352,67 +352,67 @@
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/libpangoft2-1.0.a",
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/libpangoft2-1.0.a",
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/libpango-1.0.a",
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/libpango-1.0.a",
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/libfribidi.a",
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/libfribidi.a",
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/libharfbuzz.a",
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/libharfbuzz.a",
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/libcairo.a",
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/libcairo.a",
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/libtiffd.a",
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/libtiff.a",
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/libjpeg.a",
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/libjpeg.a",
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/liblzma.a",
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/liblzma.a",
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/liblzo2.a",
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/liblzo2.a",
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/libfontconfig.a",
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/libfontconfig.a",
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/libexpat.a",
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/libexpat.a",
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/libfreetyped.a",
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/libfreetype.a",
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/libbz2d.a",
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/libbz2.a",
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/libpng16d.a",
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/libpng16.a",
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/libbrotlidec-static.a",
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/libbrotlidec-static.a",
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/libbrotlicommon-static.a",
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/libbrotlicommon-static.a",
 				"role" : "libraries"
 			},
 			{
@@ -428,31 +428,31 @@
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/libpixman-1.a",
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/libpixman-1.a",
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/libgio-2.0.a",
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/libgio-2.0.a",
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/libgobject-2.0.a",
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/libgobject-2.0.a",
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/libffi.a",
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/libffi.a",
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/libgmodule-2.0.a",
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/libgmodule-2.0.a",
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/libgthread-2.0.a",
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/libgthread-2.0.a",
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/libglib-2.0.a",
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/libglib-2.0.a",
 				"role" : "libraries"
 			},
 			{
@@ -460,49 +460,49 @@
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/libpcre2-8.a",
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/libpcre2-8.a",
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/libquirc.a",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 3,
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/libopencv_calib3d4d.a",
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/libquirc.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/libopencv_dnn4d.a",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/libprotobufd.a",
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/libopencv_calib3d4.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/libopencv_features2d4d.a",
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/libopencv_dnn4.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/libprotobuf.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/libopencv_flann4d.a",
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/libopencv_features2d4.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/libopencv_imgproc4d.a",
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/libopencv_flann4.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/libopencv_core4d.a",
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/libopencv_imgproc4.a",
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/libz.a",
+				"backtrace" : 3,
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/libopencv_core4.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/libz.a",
 				"role" : "libraries"
 			},
 			{
@@ -518,7 +518,7 @@
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/libcurl-d.a",
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/libcurl.a",
 				"role" : "libraries"
 			},
 			{
@@ -534,12 +534,12 @@
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/libz.a",
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/libz.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 5,
-				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/libjsoncpp.a",
+				"fragment" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/libjsoncpp.a",
 				"role" : "libraries"
 			}
 		],
@@ -603,19 +603,19 @@
 		{
 			"backtrace" : 5,
 			"isGenerated" : true,
-			"path" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/objects-Debug/jsoncpp_object/json_reader.cpp.o",
+			"path" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/objects-Release/jsoncpp_object/json_reader.cpp.o",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 5,
 			"isGenerated" : true,
-			"path" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/objects-Debug/jsoncpp_object/json_value.cpp.o",
+			"path" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/objects-Release/jsoncpp_object/json_value.cpp.o",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 5,
 			"isGenerated" : true,
-			"path" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/debug/lib/objects-Debug/jsoncpp_object/json_writer.cpp.o",
+			"path" : "/mnt/c/c/dev/vcpkg/installed/x64-linux/lib/objects-Release/jsoncpp_object/json_writer.cpp.o",
 			"sourceGroupIndex" : 1
 		}
 	],

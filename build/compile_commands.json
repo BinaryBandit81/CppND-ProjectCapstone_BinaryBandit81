@@ -1,22 +1,22 @@
 [
 {
   "directory": "/mnt/c/c/dev/CppND-ProjectCapstone_BinaryBandit81/build",
-  "command": "/usr/bin/g++ -DCURL_STATICLIB -isystem /mnt/c/c/dev/vcpkg/installed/x64-linux/include  -std=c++17 -pthread -g -o CMakeFiles/CapStone.dir/src/Capstone.cpp.o -c /mnt/c/c/dev/CppND-ProjectCapstone_BinaryBandit81/src/Capstone.cpp",
+  "command": "/usr/bin/g++ -DCURL_STATICLIB -isystem /mnt/c/c/dev/vcpkg/installed/x64-linux/include  -std=c++17 -pthread -O3 -DNDEBUG -o CMakeFiles/CapStone.dir/src/Capstone.cpp.o -c /mnt/c/c/dev/CppND-ProjectCapstone_BinaryBandit81/src/Capstone.cpp",
   "file": "/mnt/c/c/dev/CppND-ProjectCapstone_BinaryBandit81/src/Capstone.cpp"
 },
 {
   "directory": "/mnt/c/c/dev/CppND-ProjectCapstone_BinaryBandit81/build",
-  "command": "/usr/bin/g++ -DCURL_STATICLIB -isystem /mnt/c/c/dev/vcpkg/installed/x64-linux/include  -std=c++17 -pthread -g -o CMakeFiles/CapStone.dir/src/Graphics.cpp.o -c /mnt/c/c/dev/CppND-ProjectCapstone_BinaryBandit81/src/Graphics.cpp",
+  "command": "/usr/bin/g++ -DCURL_STATICLIB -isystem /mnt/c/c/dev/vcpkg/installed/x64-linux/include  -std=c++17 -pthread -O3 -DNDEBUG -o CMakeFiles/CapStone.dir/src/Graphics.cpp.o -c /mnt/c/c/dev/CppND-ProjectCapstone_BinaryBandit81/src/Graphics.cpp",
   "file": "/mnt/c/c/dev/CppND-ProjectCapstone_BinaryBandit81/src/Graphics.cpp"
 },
 {
   "directory": "/mnt/c/c/dev/CppND-ProjectCapstone_BinaryBandit81/build",
-  "command": "/usr/bin/g++ -DCURL_STATICLIB -isystem /mnt/c/c/dev/vcpkg/installed/x64-linux/include  -std=c++17 -pthread -g -o CMakeFiles/CapStone.dir/src/departure.cpp.o -c /mnt/c/c/dev/CppND-ProjectCapstone_BinaryBandit81/src/departure.cpp",
+  "command": "/usr/bin/g++ -DCURL_STATICLIB -isystem /mnt/c/c/dev/vcpkg/installed/x64-linux/include  -std=c++17 -pthread -O3 -DNDEBUG -o CMakeFiles/CapStone.dir/src/departure.cpp.o -c /mnt/c/c/dev/CppND-ProjectCapstone_BinaryBandit81/src/departure.cpp",
   "file": "/mnt/c/c/dev/CppND-ProjectCapstone_BinaryBandit81/src/departure.cpp"
 },
 {
   "directory": "/mnt/c/c/dev/CppND-ProjectCapstone_BinaryBandit81/build",
-  "command": "/usr/bin/g++ -DCURL_STATICLIB -isystem /mnt/c/c/dev/vcpkg/installed/x64-linux/include  -std=c++17 -pthread -g -o CMakeFiles/CapStone.dir/src/station.cpp.o -c /mnt/c/c/dev/CppND-ProjectCapstone_BinaryBandit81/src/station.cpp",
+  "command": "/usr/bin/g++ -DCURL_STATICLIB -isystem /mnt/c/c/dev/vcpkg/installed/x64-linux/include  -std=c++17 -pthread -O3 -DNDEBUG -o CMakeFiles/CapStone.dir/src/station.cpp.o -c /mnt/c/c/dev/CppND-ProjectCapstone_BinaryBandit81/src/station.cpp",
   "file": "/mnt/c/c/dev/CppND-ProjectCapstone_BinaryBandit81/src/station.cpp"
 }
 ]

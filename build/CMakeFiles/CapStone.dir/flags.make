@@ -6,5 +6,5 @@ CXX_DEFINES = -DCURL_STATICLIB
 
 CXX_INCLUDES = -isystem /mnt/c/c/dev/vcpkg/installed/x64-linux/include
 
-CXX_FLAGS =  -std=c++17 -pthread -g
+CXX_FLAGS =  -std=c++17 -pthread -O3 -DNDEBUG
 
