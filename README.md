@@ -18,8 +18,12 @@ The Code is derived from https://github.com/udacity/CppND-Program-a-Concurrent-T
 ## Dependencies
 * cmake >= 3.11
 * make >= 4.1 (Linux, Mac), 3.81 (Windows)
-* OpenCV >= 4.1
 * gcc/g++ >= 5.4
+* OpenCV >= 4.1
+* curl
+* curlpp
+* protobuf
+* jsoncpp
 
 ## Basic Build Instructions
 1. Make a build directory in the top level directory: `mkdir build && cd build`
