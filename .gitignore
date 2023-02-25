@@ -36,4 +36,4 @@
 *.exe
 *.out
 *.app
-build/CapStone
+build/*
