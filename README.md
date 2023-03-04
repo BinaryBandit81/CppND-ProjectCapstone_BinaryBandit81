@@ -20,10 +20,16 @@ The Code is derived from https://github.com/udacity/CppND-Program-a-Concurrent-T
 * make >= 4.1 (Linux, Mac), 3.81 (Windows)
 * gcc/g++ >= 5.4
 * OpenCV >= 4.1
+* install vcpkg 
+  * https://vcpkg.io/en/getting-started.html
 * curl
+  * vcpkg install curl
 * curlpp
+  * vcpkg install curlpp
 * protobuf
+  * vcpkg install protbuf
 * jsoncpp
+  * vcpkg install jsoncpp
 
 ## Basic Build Instructions
 1. Make a build directory in the top level directory: `mkdir build && cd build`
