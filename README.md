@@ -32,6 +32,7 @@ The Code is derived from https://github.com/udacity/CppND-Program-a-Concurrent-T
   * vcpkg install jsoncpp
 
 ## Basic Build Instructions
+1. Change CMAKE_PREFIX_PATH (line 8) in CMakeLists.txt ot your vcpkg install folder (eg. /home/workspace/vcpkg/installed/x64-linux)
 1. Make a build directory in the top level directory: `mkdir build && cd build`
 2. Compile: `cmake .. && make`
 3. Run it: `./CapStone`.
