@@ -15,13 +15,23 @@ The Code is derived from https://github.com/udacity/CppND-Program-a-Concurrent-T
   - check if a subwaytrain is at the stationdraw a colored dot on the map at the station location
   - remove all trains from station that have left the station
 
-## Dependencies
+## Dependencies/ HowTo Install it
 * cmake >= 3.11
+  * All OSes: [click here for installation instructions](https://cmake.org/install/)
 * make >= 4.1 (Linux, Mac), 3.81 (Windows)
-* gcc/g++ >= 5.4
+  * Linux: make is installed by default on most Linux distros
+  * Mac: [install Xcode command line tools to get make](https://developer.apple.com/xcode/features/)
+  * Windows: [Click here for installation instructions](http://gnuwin32.sourceforge.net/packages/make.htm)
 * OpenCV >= 4.1
+  * The OpenCV 4.1.0 source code can be found [here](https://github.com/opencv/opencv/tree/4.1.0)
+* gcc/g++ >= 5.4
+  * Linux: gcc / g++ is installed by default on most Linux distros
+  * Mac: same deal as make - [install Xcode command line tools](https://developer.apple.com/xcode/features/)
+  * Windows: recommend using [MinGW](http://www.mingw.org/)
 * install vcpkg 
   * https://vcpkg.io/en/getting-started.html
+  * git clone https://github.com/Microsoft/vcpkg.git
+  * ./vcpkg/bootstrap-vcpkg.sh
 * curl
   * vcpkg install curl
 * curlpp
